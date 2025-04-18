@@ -1,0 +1,214 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 588,
+      "max": [559.0],
+      "min": [0.0],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 588,
+      "max": [1.2648473978042603, -1.1244195699691773, 3.8969714641571047],
+      "min": [-1.2648473978042603, -1.7007505893707276, 0.01893700659275055],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 588,
+      "max": [0.8748500943183899, -0.484393835067749, 0.3162285089492798],
+      "min": [-0.8748492002487183, -0.9925462603569031, -0.3162277340888977],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 588,
+      "max": [1.0131525993347169, 1.006859302520752],
+      "min": [-0.013152658939361573, -0.006859302520751953],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1044,
+      "max": [1028.0],
+      "min": [0.0],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1044,
+      "max": [1.2648473978042603, -1.0571107864379883, 3.9159085750579836],
+      "min": [-1.2648473978042603, -1.6819547414779664, 0.0],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1044,
+      "max": [0.8662620186805725, 0.9999619722366333, 1.0],
+      "min": [-0.8662620186805725, -0.3138723075389862, -1.0],
+      "type": "VEC3"
+    }
+  ],
+  "asset": { "generator": "SimLab GLTF", "version": "2.0" },
+  "bufferViews": [
+    { "buffer": 0, "byteLength": 2352, "target": 34963 },
+    {
+      "buffer": 0,
+      "byteLength": 7056,
+      "byteOffset": 2352,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7056,
+      "byteOffset": 9408,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4704,
+      "byteOffset": 16464,
+      "byteStride": 8,
+      "target": 34962
+    },
+    { "buffer": 0, "byteLength": 4176, "byteOffset": 21168, "target": 34963 },
+    {
+      "buffer": 0,
+      "byteLength": 12528,
+      "byteOffset": 25344,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12528,
+      "byteOffset": 37872,
+      "byteStride": 12,
+      "target": 34962
+    }
+  ],
+  "buffers": [{ "byteLength": 50400, "uri": "etiketta_rettangolare.bin" }],
+  "extensionsUsed": ["KHR_materials_pbrSpecularGlossiness"],
+  "images": [{ "mimeType": "image/jpeg", "uri": "Textures/piastrella.jpg" }],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.5879999995231628, 0.5879999995231628, 0.5879999995231628, 1.0
+          ],
+          "diffuseTexture": { "index": 0 },
+          "specularFactor": [0.0, 0.0, 0.0],
+          "glossinessFactor": 0.019999980926513673
+        }
+      },
+      "name": "03 - Default",
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5879999995231628, 0.5879999995231628, 0.5879999995231628, 1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [0.0, 0.38823533058166506, 0.6117647290229797, 1.0],
+          "specularFactor": [0.0, 0.0, 0.0],
+          "glossinessFactor": 0.019999980926513673
+        }
+      },
+      "name": "bassorilievo",
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.38823533058166506, 0.6117647290229797, 1.0],
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 2, "POSITION": 1, "TEXCOORD_0": 3 },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": { "NORMAL": 6, "POSITION": 5 },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1, 2],
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 4.4896593387466768e-11, -1.0, 0.0, 0.0, 1.0,
+        4.4896593387466768e-11, 0.0, 0.0, 0.0, 0.0, 1.0
+      ]
+    },
+    {
+      "extras": {},
+      "name": "Camera-1",
+      "rotation": [-0.7071067690849304, 0.0, 0.0, -0.7071067690849304],
+      "translation": [0.0, -0.4328811466693878, 0.11942127346992493]
+    },
+    {
+      "extras": {},
+      "name": "Assembly-13",
+      "children": [3],
+      "rotation": [0.0, 0.0, 0.0, -1.0],
+      "scale": [0.02539999969303608, 0.02539999969303608, 0.02539999969303608]
+    },
+    {
+      "extras": {},
+      "name": "Tube002",
+      "children": [4],
+      "rotation": [-3.0616171314629199e-17, 0.0, 0.0, -1.0],
+      "translation": [0.0, 0.0, 2.743670701980591]
+    },
+    {
+      "extras": {},
+      "name": "Assembly-12",
+      "children": [5, 6],
+      "rotation": [0.0, 0.0, 0.0, -1.0]
+    },
+    {
+      "extras": {},
+      "name": "Tube002",
+      "mesh": 0,
+      "rotation": [0.0, 0.0, 0.0, -1.0]
+    },
+    {
+      "extras": {},
+      "name": "Tube002",
+      "mesh": 1,
+      "rotation": [0.0, 0.0, 0.0, -1.0]
+    }
+  ],
+  "scene": 0,
+  "scenes": [{ "nodes": [0] }],
+  "textures": [{ "source": 0 }]
+}
